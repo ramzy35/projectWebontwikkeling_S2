@@ -78,7 +78,7 @@
       "prijs": 55999,
       "beschikbaar": false,
       "bouwjaar": "2020-04-12",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/ford-mustang.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mustang.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["Agressief design", "Hoog vermogen", "Sportieve rijervaring"],
       "fabrikant": {

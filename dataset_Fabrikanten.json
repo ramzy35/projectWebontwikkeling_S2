@@ -6,7 +6,7 @@
       "prijs": 89999,
       "beschikbaar": true,
       "bouwjaar": "2022-05-15",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/tesla-model-s.jpg",
+      "afbeelding": "https://example.com/tesla-model-s.jpg",
       "brandstof": "Elektrisch",
       "kenmerken": ["Autopilot", "Luxe interieur", "Snelladen"],
       "fabrikant": {
@@ -14,7 +14,7 @@
         "naam": "Tesla Inc.",
         "land": "Verenigde Staten",
         "opgericht": 2003,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/tesla-logo.png"
+        "logo": "https://example.com/tesla-logo.png"
       }
     },
     {
@@ -24,7 +24,7 @@
       "prijs": 79999,
       "beschikbaar": false,
       "bouwjaar": "2021-08-10",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmw-m3.jpg",
+      "afbeelding": "https://example.com/bmw-m3.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["Sportstoelen", "Adaptieve ophanging", "High-Performance remmen"],
       "fabrikant": {
@@ -32,7 +32,7 @@
         "naam": "BMW Group",
         "land": "Duitsland",
         "opgericht": 1916,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmw-logo.png"
+        "logo": "https://example.com/bmw-logo.png"
       }
     },
     {
@@ -42,7 +42,7 @@
       "prijs": 65999,
       "beschikbaar": true,
       "bouwjaar": "2023-01-20",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audi-q5.jpg",
+      "afbeelding": "https://example.com/audi-q5.jpg",
       "brandstof": "Diesel",
       "kenmerken": ["Quattro vierwielaandrijving", "Virtual Cockpit", "Panoramisch dak"],
       "fabrikant": {
@@ -50,7 +50,7 @@
         "naam": "Audi AG",
         "land": "Duitsland",
         "opgericht": 1909,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audi-logo.png"
+        "logo": "https://example.com/audi-logo.png"
       }
     },
     {
@@ -60,7 +60,7 @@
       "prijs": 70999,
       "beschikbaar": true,
       "bouwjaar": "2022-07-05",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mercedes-c.jpg",
+      "afbeelding": "https://example.com/mercedes-c.jpg",
       "brandstof": "Hybride",
       "kenmerken": ["Lederen bekleding", "MBUX infotainmentsysteem", "Geavanceerde rijhulpsystemen"],
       "fabrikant": {
@@ -68,7 +68,7 @@
         "naam": "Mercedes-Benz",
         "land": "Duitsland",
         "opgericht": 1926,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mercedes-logo.png"
+        "logo": "https://example.com/mercedes-logo.png"
       }
     },
     {
@@ -78,7 +78,7 @@
       "prijs": 55999,
       "beschikbaar": false,
       "bouwjaar": "2020-04-12",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/ford-mustang.jpg",
+      "afbeelding": "https://example.com/ford-mustang.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["Agressief design", "Hoog vermogen", "Sportieve rijervaring"],
       "fabrikant": {
@@ -86,7 +86,7 @@
         "naam": "Ford Motor Company",
         "land": "Verenigde Staten",
         "opgericht": 1903,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/ford-logo.png"
+        "logo": "https://example.com/ford-logo.png"
       }
     },
     {
@@ -96,7 +96,7 @@
       "prijs": 125000,
       "beschikbaar": true,
       "bouwjaar": "2023-03-18",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porsche-911.jpg",
+      "afbeelding": "https://example.com/porsche-911.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["Achterwielaandrijving", "Sportuitlaat", "Adaptieve aerodynamica"],
       "fabrikant": {
@@ -104,7 +104,7 @@
         "naam": "Porsche AG",
         "land": "Duitsland",
         "opgericht": 1931,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porsche-logo.png"
+        "logo": "https://example.com/porsche-logo.png"
       }
     },
     {
@@ -114,7 +114,7 @@
       "prijs": 32999,
       "beschikbaar": true,
       "bouwjaar": "2021-09-22",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyota-prius.jpg",
+      "afbeelding": "https://example.com/toyota-prius.jpg",
       "brandstof": "Hybride",
       "kenmerken": ["Zuinige motor", "Ruim interieur", "Lage CO2-uitstoot"],
       "fabrikant": {
@@ -122,7 +122,7 @@
         "naam": "Toyota",
         "land": "Japan",
         "opgericht": 1937,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyota-logo.png"
+        "logo": "https://example.com/toyota-logo.png"
       }
     },
     {
@@ -132,7 +132,7 @@
       "prijs": 41999,
       "beschikbaar": false,
       "bouwjaar": "2022-11-30",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/vw-golf-gti.jpg",
+      "afbeelding": "https://example.com/vw-golf-gti.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["Turbocharged motor", "Sportieve ophanging", "Iconisch design"],
       "fabrikant": {
@@ -140,7 +140,7 @@
         "naam": "Volkswagen",
         "land": "Duitsland",
         "opgericht": 1937,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/vw-logo.png"
+        "logo": "https://example.com/vw-logo.png"
       }
     },
     {
@@ -150,7 +150,7 @@
       "prijs": 46999,
       "beschikbaar": true,
       "bouwjaar": "2022-06-15",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/hyundai-ioniq5.jpg",
+      "afbeelding": "https://example.com/hyundai-ioniq5.jpg",
       "brandstof": "Elektrisch",
       "kenmerken": ["Snelladen", "Minimalistisch interieur", "Grote bagageruimte"],
       "fabrikant": {
@@ -158,7 +158,7 @@
         "naam": "Hyundai",
         "land": "Zuid-Korea",
         "opgericht": 1967,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/hyundai-logo.png"
+        "logo": "https://example.com/hyundai-logo.png"
       }
     },
     {
@@ -168,7 +168,7 @@
       "prijs": 54999,
       "beschikbaar": false,
       "bouwjaar": "2021-05-10",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/jeep-wrangler.jpg",
+      "afbeelding": "https://example.com/jeep-wrangler.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["4x4 aandrijving", "Verwijderbare deuren", "Waterbestendig interieur"],
       "fabrikant": {
@@ -176,7 +176,7 @@
         "naam": "Jeep",
         "land": "Verenigde Staten",
         "opgericht": 1941,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/jeep-logo.png"
+        "logo": "https://example.com/jeep-logo.png"
       }
     }
   ]

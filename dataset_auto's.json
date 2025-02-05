@@ -6,7 +6,7 @@
       "prijs": 89999,
       "beschikbaar": true,
       "bouwjaar": "2022-05-15",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/tesla-model-s.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/teslaS.png",
       "brandstof": "Elektrisch",
       "kenmerken": ["Autopilot", "Luxe interieur", "Snelladen"],
       "fabrikant": {
@@ -24,7 +24,7 @@
       "prijs": 79999,
       "beschikbaar": false,
       "bouwjaar": "2021-08-10",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmw-m3.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmwM3.png",
       "brandstof": "Benzine",
       "kenmerken": ["Sportstoelen", "Adaptieve ophanging", "High-Performance remmen"],
       "fabrikant": {
@@ -42,7 +42,7 @@
       "prijs": 65999,
       "beschikbaar": true,
       "bouwjaar": "2023-01-20",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audi-q5.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audiQ5.png",
       "brandstof": "Diesel",
       "kenmerken": ["Quattro vierwielaandrijving", "Virtual Cockpit", "Panoramisch dak"],
       "fabrikant": {
@@ -60,7 +60,7 @@
       "prijs": 70999,
       "beschikbaar": true,
       "bouwjaar": "2022-07-05",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mercedes-c.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/cklasse.png",
       "brandstof": "Hybride",
       "kenmerken": ["Lederen bekleding", "MBUX infotainmentsysteem", "Geavanceerde rijhulpsystemen"],
       "fabrikant": {
@@ -78,7 +78,7 @@
       "prijs": 55999,
       "beschikbaar": false,
       "bouwjaar": "2020-04-12",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mustang.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mustang.png",
       "brandstof": "Benzine",
       "kenmerken": ["Agressief design", "Hoog vermogen", "Sportieve rijervaring"],
       "fabrikant": {
@@ -96,7 +96,7 @@
       "prijs": 125000,
       "beschikbaar": true,
       "bouwjaar": "2023-03-18",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porsche-911.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porsche911.png",
       "brandstof": "Benzine",
       "kenmerken": ["Achterwielaandrijving", "Sportuitlaat", "Adaptieve aerodynamica"],
       "fabrikant": {
@@ -114,7 +114,7 @@
       "prijs": 32999,
       "beschikbaar": true,
       "bouwjaar": "2021-09-22",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyota-prius.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyotaPrius.png",
       "brandstof": "Hybride",
       "kenmerken": ["Zuinige motor", "Ruim interieur", "Lage CO2-uitstoot"],
       "fabrikant": {
@@ -132,7 +132,7 @@
       "prijs": 41999,
       "beschikbaar": false,
       "bouwjaar": "2022-11-30",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/vw-golf-gti.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/GTI.png",
       "brandstof": "Benzine",
       "kenmerken": ["Turbocharged motor", "Sportieve ophanging", "Iconisch design"],
       "fabrikant": {
@@ -150,7 +150,7 @@
       "prijs": 46999,
       "beschikbaar": true,
       "bouwjaar": "2022-06-15",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/hyundai-ioniq5.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/HyundaiLoniq5.png",
       "brandstof": "Elektrisch",
       "kenmerken": ["Snelladen", "Minimalistisch interieur", "Grote bagageruimte"],
       "fabrikant": {
@@ -168,7 +168,7 @@
       "prijs": 54999,
       "beschikbaar": false,
       "bouwjaar": "2021-05-10",
-      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/jeep-wrangler.jpg",
+      "afbeelding": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/jeep.jpg",
       "brandstof": "Benzine",
       "kenmerken": ["4x4 aandrijving", "Verwijderbare deuren", "Waterbestendig interieur"],
       "fabrikant": {

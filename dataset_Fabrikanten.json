@@ -1,182 +1,58 @@
 [
-    {
-      "id": 1,
-      "naam": "Tesla Model S",
-      "beschrijving": "Een krachtige elektrische sedan met een indrukwekkend rijbereik.",
-      "prijs": 89999,
-      "beschikbaar": true,
-      "bouwjaar": "2022-05-15",
-      "afbeelding": "https://example.com/tesla-model-s.jpg",
-      "brandstof": "Elektrisch",
-      "kenmerken": ["Autopilot", "Luxe interieur", "Snelladen"],
-      "fabrikant": {
-        "id": 101,
-        "naam": "Tesla Inc.",
-        "land": "Verenigde Staten",
-        "opgericht": 2003,
-        "logo": "https://example.com/tesla-logo.png"
-      }
-    },
-    {
-      "id": 2,
-      "naam": "BMW M3",
-      "beschrijving": "Een sportieve sedan met een krachtige motor en uitstekende wegligging.",
-      "prijs": 79999,
-      "beschikbaar": false,
-      "bouwjaar": "2021-08-10",
-      "afbeelding": "https://example.com/bmw-m3.jpg",
-      "brandstof": "Benzine",
-      "kenmerken": ["Sportstoelen", "Adaptieve ophanging", "High-Performance remmen"],
-      "fabrikant": {
-        "id": 102,
-        "naam": "BMW Group",
-        "land": "Duitsland",
-        "opgericht": 1916,
-        "logo": "https://example.com/bmw-logo.png"
-      }
-    },
-    {
-      "id": 3,
-      "naam": "Audi Q5",
-      "beschrijving": "Een luxe SUV met een ruim interieur en geavanceerde technologie.",
-      "prijs": 65999,
-      "beschikbaar": true,
-      "bouwjaar": "2023-01-20",
-      "afbeelding": "https://example.com/audi-q5.jpg",
-      "brandstof": "Diesel",
-      "kenmerken": ["Quattro vierwielaandrijving", "Virtual Cockpit", "Panoramisch dak"],
-      "fabrikant": {
-        "id": 103,
-        "naam": "Audi AG",
-        "land": "Duitsland",
-        "opgericht": 1909,
-        "logo": "https://example.com/audi-logo.png"
-      }
-    },
-    {
-      "id": 4,
-      "naam": "Mercedes-Benz C-Klasse",
-      "beschrijving": "Een premium sedan met een elegante uitstraling en moderne technologie.",
-      "prijs": 70999,
-      "beschikbaar": true,
-      "bouwjaar": "2022-07-05",
-      "afbeelding": "https://example.com/mercedes-c.jpg",
-      "brandstof": "Hybride",
-      "kenmerken": ["Lederen bekleding", "MBUX infotainmentsysteem", "Geavanceerde rijhulpsystemen"],
-      "fabrikant": {
-        "id": 104,
-        "naam": "Mercedes-Benz",
-        "land": "Duitsland",
-        "opgericht": 1926,
-        "logo": "https://example.com/mercedes-logo.png"
-      }
-    },
-    {
-      "id": 5,
-      "naam": "Ford Mustang",
-      "beschrijving": "Een iconische Amerikaanse muscle car met een krachtige V8-motor.",
-      "prijs": 55999,
-      "beschikbaar": false,
-      "bouwjaar": "2020-04-12",
-      "afbeelding": "https://example.com/ford-mustang.jpg",
-      "brandstof": "Benzine",
-      "kenmerken": ["Agressief design", "Hoog vermogen", "Sportieve rijervaring"],
-      "fabrikant": {
-        "id": 105,
-        "naam": "Ford Motor Company",
-        "land": "Verenigde Staten",
-        "opgericht": 1903,
-        "logo": "https://example.com/ford-logo.png"
-      }
-    },
-    {
-      "id": 6,
-      "naam": "Porsche 911",
-      "beschrijving": "Een legendarische sportwagen met een tijdloos design en ongeëvenaarde prestaties.",
-      "prijs": 125000,
-      "beschikbaar": true,
-      "bouwjaar": "2023-03-18",
-      "afbeelding": "https://example.com/porsche-911.jpg",
-      "brandstof": "Benzine",
-      "kenmerken": ["Achterwielaandrijving", "Sportuitlaat", "Adaptieve aerodynamica"],
-      "fabrikant": {
-        "id": 106,
-        "naam": "Porsche AG",
-        "land": "Duitsland",
-        "opgericht": 1931,
-        "logo": "https://example.com/porsche-logo.png"
-      }
-    },
-    {
-      "id": 7,
-      "naam": "Toyota Prius",
-      "beschrijving": "Een hybride auto die bekend staat om zijn efficiëntie en betrouwbaarheid.",
-      "prijs": 32999,
-      "beschikbaar": true,
-      "bouwjaar": "2021-09-22",
-      "afbeelding": "https://example.com/toyota-prius.jpg",
-      "brandstof": "Hybride",
-      "kenmerken": ["Zuinige motor", "Ruim interieur", "Lage CO2-uitstoot"],
-      "fabrikant": {
-        "id": 107,
-        "naam": "Toyota",
-        "land": "Japan",
-        "opgericht": 1937,
-        "logo": "https://example.com/toyota-logo.png"
-      }
-    },
-    {
-      "id": 8,
-      "naam": "Volkswagen Golf GTI",
-      "beschrijving": "Een sportieve hatchback die rijplezier combineert met dagelijkse bruikbaarheid.",
-      "prijs": 41999,
-      "beschikbaar": false,
-      "bouwjaar": "2022-11-30",
-      "afbeelding": "https://example.com/vw-golf-gti.jpg",
-      "brandstof": "Benzine",
-      "kenmerken": ["Turbocharged motor", "Sportieve ophanging", "Iconisch design"],
-      "fabrikant": {
-        "id": 108,
-        "naam": "Volkswagen",
-        "land": "Duitsland",
-        "opgericht": 1937,
-        "logo": "https://example.com/vw-logo.png"
-      }
-    },
-    {
-      "id": 9,
-      "naam": "Hyundai Ioniq 5",
-      "beschrijving": "Een futuristische elektrische crossover met een hoge actieradius.",
-      "prijs": 46999,
-      "beschikbaar": true,
-      "bouwjaar": "2022-06-15",
-      "afbeelding": "https://example.com/hyundai-ioniq5.jpg",
-      "brandstof": "Elektrisch",
-      "kenmerken": ["Snelladen", "Minimalistisch interieur", "Grote bagageruimte"],
-      "fabrikant": {
-        "id": 109,
-        "naam": "Hyundai",
-        "land": "Zuid-Korea",
-        "opgericht": 1967,
-        "logo": "https://example.com/hyundai-logo.png"
-      }
-    },
-    {
-      "id": 10,
-      "naam": "Jeep Wrangler",
-      "beschrijving": "Een robuuste terreinwagen ontworpen voor extreme off-road avonturen.",
-      "prijs": 54999,
-      "beschikbaar": false,
-      "bouwjaar": "2021-05-10",
-      "afbeelding": "https://example.com/jeep-wrangler.jpg",
-      "brandstof": "Benzine",
-      "kenmerken": ["4x4 aandrijving", "Verwijderbare deuren", "Waterbestendig interieur"],
-      "fabrikant": {
-        "id": 110,
-        "naam": "Jeep",
-        "land": "Verenigde Staten",
-        "opgericht": 1941,
-        "logo": "https://example.com/jeep-logo.png"
-      }
-    }
-  ]
+  {
+    "id": 101,
+    "naam": "Tesla Inc.",
+    "land": "Verenigde Staten",
+    "opgericht": 2003,
+    "logo": "https://example.com/tesla-logo.png"
+  },
+  {
+    "id": 102,
+    "naam": "BMW Group",
+    "land": "Duitsland",
+    "opgericht": 1916,
+    "logo": "https://example.com/bmw-logo.png"
+  },
+  {
+    "id": 103,
+    "naam": "Audi AG",
+    "land": "Duitsland",
+    "opgericht": 1909,
+    "logo": "https://example.com/audi-logo.png"
+  },
+  {
+    "id": 104,
+    "naam": "Mercedes-Benz",
+    "land": "Duitsland",
+    "opgericht": 1926,
+    "logo": "https://example.com/mercedes-logo.png"
+  },
+  {
+    "id": 105,
+    "naam": "Ford Motor Company",
+    "land": "Verenigde Staten",
+    "opgericht": 1903,
+    "logo": "https://example.com/ford-logo.png"
+  },
+  {
+    "id": 106,
+    "naam": "Porsche AG",
+    "land": "Duitsland",
+    "opgericht": 1931,
+    "logo": "https://example.com/porsche-logo.png"
+  },
+  {
+    "id": 107,
+    "naam": "Toyota",
+    "land": "Japan",
+    "opgericht": 1937,
+    "logo": "https://example.com/toyota-logo.png"
+  },
+  {
+    "id": 108,
+    "naam": "Volkswagen",
+    "land": "Duitsland",
+    "opgericht": 1937,
+    "logo": "https://example.com/vw-logo.png"
+  }
+]

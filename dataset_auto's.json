@@ -13,8 +13,7 @@
         "id": 101,
         "naam": "Tesla Inc.",
         "land": "Verenigde Staten",
-        "opgericht": 2003,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/tesla-logo.png"
+        "opgericht": 2003
       }
     },
     {
@@ -31,8 +30,7 @@
         "id": 102,
         "naam": "BMW Group",
         "land": "Duitsland",
-        "opgericht": 1916,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmw-logo.png"
+        "opgericht": 1916
       }
     },
     {
@@ -49,8 +47,7 @@
         "id": 103,
         "naam": "Audi AG",
         "land": "Duitsland",
-        "opgericht": 1909,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audi-logo.png"
+        "opgericht": 1909
       }
     },
     {
@@ -67,8 +64,7 @@
         "id": 104,
         "naam": "Mercedes-Benz",
         "land": "Duitsland",
-        "opgericht": 1926,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mercedes-logo.png"
+        "opgericht": 1926
       }
     },
     {
@@ -85,8 +81,7 @@
         "id": 105,
         "naam": "Ford Motor Company",
         "land": "Verenigde Staten",
-        "opgericht": 1903,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/ford-logo.png"
+        "opgericht": 1903
       }
     },
     {
@@ -103,8 +98,7 @@
         "id": 106,
         "naam": "Porsche AG",
         "land": "Duitsland",
-        "opgericht": 1931,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porsche-logo.png"
+        "opgericht": 1931
       }
     },
     {
@@ -121,8 +115,7 @@
         "id": 107,
         "naam": "Toyota",
         "land": "Japan",
-        "opgericht": 1937,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyota-logo.png"
+        "opgericht": 1937
       }
     },
     {
@@ -139,8 +132,7 @@
         "id": 108,
         "naam": "Volkswagen",
         "land": "Duitsland",
-        "opgericht": 1937,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/vw-logo.png"
+        "opgericht": 1937
       }
     },
     {
@@ -157,8 +149,7 @@
         "id": 109,
         "naam": "Hyundai",
         "land": "Zuid-Korea",
-        "opgericht": 1967,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/hyundai-logo.png"
+        "opgericht": 1967
       }
     },
     {
@@ -175,8 +166,7 @@
         "id": 110,
         "naam": "Jeep",
         "land": "Verenigde Staten",
-        "opgericht": 1941,
-        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/jeep-logo.png"
+        "opgericht": 1941
       }
     }
   ]

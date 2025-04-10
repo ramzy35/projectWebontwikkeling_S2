@@ -13,6 +13,7 @@
         "id": 101,
         "naam": "Tesla Inc.",
         "land": "Verenigde Staten",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/teslaLogo.png",
         "opgericht": 2003
       }
     },
@@ -30,6 +31,7 @@
         "id": 102,
         "naam": "BMW Group",
         "land": "Duitsland",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmwLogo.png",
         "opgericht": 1916
       }
     },
@@ -47,6 +49,7 @@
         "id": 103,
         "naam": "Audi AG",
         "land": "Duitsland",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audiLogo.png",
         "opgericht": 1909
       }
     },
@@ -64,6 +67,7 @@
         "id": 104,
         "naam": "Mercedes-Benz",
         "land": "Duitsland",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mercedesLogo.png",
         "opgericht": 1926
       }
     },
@@ -81,6 +85,7 @@
         "id": 105,
         "naam": "Ford Motor Company",
         "land": "Verenigde Staten",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/fordLogo.png",
         "opgericht": 1903
       }
     },
@@ -98,6 +103,7 @@
         "id": 106,
         "naam": "Porsche AG",
         "land": "Duitsland",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porscheLogo.png",
         "opgericht": 1931
       }
     },
@@ -115,6 +121,7 @@
         "id": 107,
         "naam": "Toyota",
         "land": "Japan",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyotaLogo.png",
         "opgericht": 1937
       }
     },
@@ -132,6 +139,7 @@
         "id": 108,
         "naam": "Volkswagen",
         "land": "Duitsland",
+        "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/volkswagenLogo.png",
         "opgericht": 1937
       }
     },

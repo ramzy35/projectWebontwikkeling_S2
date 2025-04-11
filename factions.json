@@ -1,0 +1,70 @@
+
+[
+    {
+      "id": "faction_01",
+      "name": "Crimson Order",
+      "alignment": "Chaotic Good",
+      "symbolUrl": "https://github.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Crimson%20Order_raw.png",
+      "isSecretSociety": false,
+      "foundedYear": 1223
+    },
+    {
+      "id": "faction_02",
+      "name": "Nightfang Syndicate",
+      "alignment": "Neutral Evil",
+      "symbolUrl": "https://github.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Nightfang%20Syndicate_raw.png",
+      "isSecretSociety": true,
+      "foundedYear": 1301
+    },
+    {
+      "id": "faction_03",
+      "name": "Order of the Silver Flame",
+      "alignment": "Lawful Good",
+      "symbolUrl": "https://github.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Silver%20Flame_raw.png",
+      "isSecretSociety": false,
+      "foundedYear": 1100
+    },
+    {
+      "id": "faction_04",
+      "name": "Stonekin Tribes",
+      "alignment": "Neutral",
+      "symbolUrl": "https://github.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Stonekin%20Tribes_raw.png",
+      "isSecretSociety": false,
+      "foundedYear": 950
+    },
+    {
+      "id": "faction_05",
+      "name": "Circle of the Blooming Grove",
+      "alignment": "Neutral Good",
+      "symbolUrl": "https://raw.githubusercontent.com/user/repository/main/images/faction_blooming_grove.png",
+      "isSecretSociety": false,
+      "foundedYear": 1050
+    },
+    {
+      "id": "faction_06",
+      "name": "Coven of Endless Night",
+      "alignment": "Chaotic Evil",
+      "symbolUrl": "https://raw.githubusercontent.com/user/repository/main/images/faction_endless_night.png",
+      "isSecretSociety": true,
+      "foundedYear": 666
+    },
+    {
+      "id": "faction_07",
+      "name": "Moonwatch Sentinels",
+      "alignment": "Lawful Neutral",
+      "symbolUrl": "https://raw.githubusercontent.com/user/repository/main/images/faction_moonwatch.png",
+      "isSecretSociety": false,
+      "foundedYear": 1201
+    },
+    {
+      "id": "faction_08",
+      "name": "Ironfang Clan",
+      "alignment": "Chaotic Neutral",
+      "symbolUrl": "https://raw.githubusercontent.com/user/repository/main/images/faction_ironfang.png",
+      "isSecretSociety": false,
+      "foundedYear": 890
+    }
+]
+  
+
+  

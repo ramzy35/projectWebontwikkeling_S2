@@ -1,0 +1,99 @@
+[
+    {
+      "id": "card_001",
+      "name": "Flamecaller Zarek",
+      "description": "A powerful pyromancer who incinerates enemies with devastating fire spells.",
+      "powerLevel": 87,
+      "isLegendary": true,
+      "releaseDate": "2023-05-15",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Flamecaller%20Zarek_raw.png",
+      "cardType": "Mage",
+      "abilities": ["Fireball", "Flame Shield", "Ignite"],
+      "faction": {
+        "id": "faction_01",
+        "name": "Crimson Order",
+        "alignment": "Chaotic Good",
+        "symbolUrl": "https://example.com/images/faction_crimson_order.png",
+        "isSecretSociety": false,
+        "foundedYear": 1223
+      }
+    },
+    {
+      "id": "card_002",
+      "name": "Shadowblade Nyra",
+      "description": "A stealth assassin who strikes from the darkness, unseen and deadly.",
+      "powerLevel": 75,
+      "isLegendary": false,
+      "releaseDate": "2023-06-10",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Stormcaller%20Aria_raw.png",
+      "cardType": "Rogue",
+      "abilities": ["Shadowstep", "Poison Dagger", "Cloak of Night"],
+      "faction": {
+        "id": "faction_02",
+        "name": "Nightfang Syndicate",
+        "alignment": "Neutral Evil",
+        "symbolUrl": "https://example.com/images/faction_nightfang.png",
+        "isSecretSociety": true,
+        "foundedYear": 1301
+      }
+    },
+    {
+      "id": "card_003",
+      "name": "High Cleric Venn",
+      "description": "A devoted priest whose divine powers heal allies and banish the undead.",
+      "powerLevel": 69,
+      "isLegendary": false,
+      "releaseDate": "2023-04-01",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_High%20Cleric%20Venn_raw.png",
+      "cardType": "Cleric",
+      "abilities": ["Heal", "Smite Undead", "Divine Barrier"],
+      "faction": {
+        "id": "faction_03",
+        "name": "Order of the Silver Flame",
+        "alignment": "Lawful Good",
+        "symbolUrl": "https://example.com/images/faction_silver_flame.png",
+        "isSecretSociety": false,
+        "foundedYear": 1100
+      }
+    },
+    {
+      "id": "card_004",
+      "name": "Stormcaller Aria",
+      "description": "Harnesses the raw fury of the skies to strike down foes with lightning.",
+      "powerLevel": 80,
+      "isLegendary": true,
+      "releaseDate": "2023-07-20",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Stormcaller%20Aria_raw.png",
+      "cardType": "Sorcerer",
+      "abilities": ["Lightning Bolt", "Storm Surge", "Electric Shield"],
+      "faction": {
+        "id": "faction_01",
+        "name": "Crimson Order",
+        "alignment": "Chaotic Good",
+        "symbolUrl": "https://example.com/images/faction_crimson_order.png",
+        "isSecretSociety": false,
+        "foundedYear": 1223
+      }
+    },
+    {
+      "id": "card_005",
+      "name": "Gorath the Unbroken",
+      "description": "A mighty warrior of stone and will, unshakable in battle.",
+      "powerLevel": 95,
+      "isLegendary": true,
+      "releaseDate": "2023-01-30",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Gorath%20the%20Unbroken_raw.png",
+      "cardType": "Warrior",
+      "abilities": ["Earth Slam", "Unbreakable Will", "Stone Fist"],
+      "faction": {
+        "id": "faction_04",
+        "name": "Stonekin Tribes",
+        "alignment": "Neutral",
+        "symbolUrl": "https://example.com/images/faction_stonekin.png",
+        "isSecretSociety": false,
+        "foundedYear": 950
+      }
+    }
+    // Voeg hier nog minstens 5 andere kaarten toe met dezelfde structuur
+  ]
+  

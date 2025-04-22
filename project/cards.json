@@ -6,7 +6,7 @@
       "powerLevel": 87,
       "isLegendary": true,
       "releaseDate": "2023-05-15",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Flamecaller%20Zarek_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Flamecaller%20Zarek_raw.png",
       "cardType": "Mage",
       "rarity": "Epic",
       "manaCost": 6,
@@ -17,7 +17,7 @@
         "id": "faction_01",
         "name": "Crimson Order",
         "alignment": "Chaotic Good",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Crimson%20Order_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Crimson%20Order_raw.png",
         "isSecretSociety": false,
         "foundedYear": 1223
       }
@@ -29,7 +29,7 @@
       "powerLevel": 75,
       "isLegendary": false,
       "releaseDate": "2023-06-10",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Shadowblade%20Nyra_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Shadowblade%20Nyra_raw.png",
       "cardType": "Rogue",
       "rarity": "Rare",
       "manaCost": 4,
@@ -40,7 +40,7 @@
         "id": "faction_02",
         "name": "Nightfang Syndicate",
         "alignment": "Neutral Evil",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Nightfang%20Syndicate_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Nightfang%20Syndicate_raw.png",
         "isSecretSociety": true,
         "foundedYear": 1301
       }
@@ -52,7 +52,7 @@
       "powerLevel": 69,
       "isLegendary": false,
       "releaseDate": "2023-04-01",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_High%20Cleric%20Venn_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_High%20Cleric%20Venn_raw.png",
       "cardType": "Cleric",
       "rarity": "Uncommon",
       "manaCost": 5,
@@ -63,7 +63,7 @@
         "id": "faction_03",
         "name": "Order of the Silver Flame",
         "alignment": "Lawful Good",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Silver%20Flame_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Silver%20Flame_raw.png",
         "isSecretSociety": false,
         "foundedYear": 1100
       }
@@ -75,7 +75,7 @@
       "powerLevel": 80,
       "isLegendary": true,
       "releaseDate": "2023-07-20",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Stormcaller%20Aria_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Stormcaller%20Aria_raw.png",
       "cardType": "Sorcerer",
       "rarity": "Epic",
       "manaCost": 7,
@@ -86,7 +86,7 @@
         "id": "faction_01",
         "name": "Crimson Order",
         "alignment": "Chaotic Good",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Crimson%20Order_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Crimson%20Order_raw.png",
         "isSecretSociety": false,
         "foundedYear": 1223
       }
@@ -98,7 +98,7 @@
       "powerLevel": 95,
       "isLegendary": true,
       "releaseDate": "2023-01-30",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Gorath%20the%20Unbroken_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Gorath%20the%20Unbroken_raw.png",
       "cardType": "Warrior",
       "rarity": "Legendary",
       "manaCost": 8,
@@ -109,7 +109,7 @@
         "id": "faction_04",
         "name": "Stonekin Tribes",
         "alignment": "Neutral",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Stonekin%20Tribes_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Stonekin%20Tribes_raw.png",
         "isSecretSociety": false,
         "foundedYear": 950
       }
@@ -121,7 +121,7 @@
       "powerLevel": 70,
       "isLegendary": false,
       "releaseDate": "2023-08-12",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Vera%20the%20Verdant_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Vera%20the%20Verdant_raw.png",
       "cardType": "Druid",
       "rarity": "Uncommon",
       "manaCost": 4,
@@ -132,7 +132,7 @@
         "id": "faction_05",
         "name": "Circle of the Blooming Grove",
         "alignment": "Neutral Good",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Circle%20of%20the%20Blooming%20Grove_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Circle%20of%20the%20Blooming%20Grove_raw.png",
         "isSecretSociety": false,
         "foundedYear": 1050
       }
@@ -144,7 +144,7 @@
       "powerLevel": 85,
       "isLegendary": true,
       "releaseDate": "2023-10-31",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Thalor%20the%20Undying_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Thalor%20the%20Undying_raw.png",
       "cardType": "Necromancer",
       "rarity": "Epic",
       "manaCost": 7,
@@ -155,7 +155,7 @@
         "id": "faction_06",
         "name": "Coven of Endless Night",
         "alignment": "Chaotic Evil",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Coven%20of%20Endless%20Night_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Coven%20of%20Endless%20Night_raw.png",
         "isSecretSociety": true,
         "foundedYear": 666
       }
@@ -167,7 +167,7 @@
       "powerLevel": 78,
       "isLegendary": false,
       "releaseDate": "2023-03-21",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Ayla%20of%20the%20Moonwatch4_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Ayla%20of%20the%20Moonwatch4_raw.png",
       "cardType": "Hunter",
       "rarity": "Rare",
       "manaCost": 5,
@@ -178,7 +178,7 @@
         "id": "faction_07",
         "name": "Moonwatch Sentinels",
         "alignment": "Lawful Neutral",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Moonwatch%20Sentinels_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Moonwatch%20Sentinels_raw.png",
         "isSecretSociety": false,
         "foundedYear": 1201
       }
@@ -190,7 +190,7 @@
       "powerLevel": 82,
       "isLegendary": false,
       "releaseDate": "2023-11-17",
-      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Brugg%20Ironjaw_raw.png",
+      "imageUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Brugg%20Ironjaw_raw.png",
       "cardType": "Berserker",
       "rarity": "Uncommon",
       "manaCost": 4,
@@ -201,7 +201,7 @@
         "id": "faction_08",
         "name": "Ironfang Clan",
         "alignment": "Chaotic Neutral",
-        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/imagesCardGame/openart-image_Ironfang%20Clan_raw.png",
+        "symbolUrl": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/main/project/imagesCardGame/openart-image_Ironfang%20Clan_raw.png",
         "isSecretSociety": false,
         "foundedYear": 890
       }

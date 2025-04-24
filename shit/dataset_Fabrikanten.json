@@ -1,0 +1,59 @@
+[
+  {
+    "id": 101,
+    "naam": "Tesla Inc.",
+    "land": "Verenigde Staten",
+    "opgericht": 2003,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/teslaLogo.png"
+  },
+  {
+    "id": 102,
+    "naam": "BMW Group",
+    "land": "Duitsland",
+    "opgericht": 1916,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/bmwLogo.png"
+  },
+  {
+    "id": 103,
+    "naam": "Audi AG",
+    "land": "Duitsland",
+    "opgericht": 1909,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/audiLogo.png"
+  },
+  {
+    "id": 104,
+    "naam": "Mercedes-Benz",
+    "land": "Duitsland",
+    "opgericht": 1926,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/mercedesLogo.png"
+  },
+  {
+    "id": 105,
+    "naam": "Ford Motor Company",
+    "land": "Verenigde Staten",
+    "opgericht": 1903,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/fordLogo.png"
+  },
+  {
+    "id": 106,
+    "naam": "Porsche AG",
+    "land": "Duitsland",
+    "opgericht": 1931,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/porscheLogo.png"
+  },
+  
+  {
+    "id": 107,
+    "naam": "Toyota",
+    "land": "Japan",
+    "opgericht": 1937,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/toyotaLogo.png"
+  },
+  {
+    "id": 108,
+    "naam": "Volkswagen",
+    "land": "Duitsland",
+    "opgericht": 1937,
+    "logo": "https://raw.githubusercontent.com/ramzy35/projectWebontwikkeling_S2/refs/heads/main/images/volkswagenLogo.png"
+  }
+]

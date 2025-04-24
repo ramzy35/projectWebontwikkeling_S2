@@ -27,19 +27,19 @@ function promtUser(): void {
             const found: Card[] = cardData.filter(card => {
                 card.id === choiceId
             });
-            // console.log(`\n- ${found.name} (${found.id})`);
-            // console.log(`- Description: ${found.description}`);
-            // console.log(`- powerLevel: ${found.powerLevel}`);
-            // console.log(`- isLegendary: ${found.isLegendary}`);
-            // console.log(`- rarity: ${found.rarity}`);
-            // console.log(`- manaCost: ${found.manaCost}`);
-            // console.log(`- cardGame: ${found.cardGame}`);
-            // console.log(`- cardSet: ${found.cardSet}`);
-            // console.log(`- abilities: ${found.abilities.join(', ')}`);
-            // console.log(`- faction: ${found.faction.name}`);
-            // console.log(`- alignment: ${found.faction.alignment}`);
-            // console.log(`- foundedYear: ${found.faction.foundedYear}`);
-            // console.log(`- isSecretSociety: ${found.faction.isSecretSociety}`);
+            console.log(`\n- ${found[0].name} (${found[0].id})`);
+            console.log(`- Description: ${found[0].description}`);
+            console.log(`- powerLevel: ${found[0].powerLevel}`);
+            console.log(`- isLegendary: ${found[0].isLegendary}`);
+            console.log(`- rarity: ${found[0].rarity}`);
+            console.log(`- manaCost: ${found[0].manaCost}`);
+            console.log(`- cardGame: ${found[0].cardGame}`);
+            console.log(`- cardSet: ${found[0].cardSet}`);
+            console.log(`- abilities: ${found[0].abilities.join(', ')}`);
+            console.log(`- faction: ${found[0].faction.name}`);
+            console.log(`- alignment: ${found[0].faction.alignment}`);
+            console.log(`- foundedYear: ${found[0].faction.foundedYear}`);
+            console.log(`- isSecretSociety: ${found[0].faction.isSecretSociety}`);
             break;
 
         case "3":
@@ -50,6 +50,8 @@ function promtUser(): void {
             break;
     }
 }
+
+displayMenu();
 
 
 

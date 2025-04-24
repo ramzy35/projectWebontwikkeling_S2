@@ -26,8 +26,6 @@ function promtUser() {
             displayMenu();
         } else if (choice === '2') {
             readline.question("\nplease enter the id you want to filter by: ", (id) => {
-                // const found = char.find(a => a.id === parseInt (id));
-                // const found = cards.find(card => parseInt(card.id) === parseInt(id));
                 const found = char.find(card => parseInt(card.id) === parseInt(id));
                 if (found) {
                     console.log(`\n- ${found.name} (${found.id})`);

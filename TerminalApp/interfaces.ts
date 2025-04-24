@@ -1,13 +1,13 @@
-export interface factions {
+export interface Faction {
     id: string;
     name: string;
     alignment: string;
     symbolUrl: string;
     isSecretSociety: boolean;
     foundedYear: number;
-}
+} 
 
-export interface cards {
+export interface Card {
     id: string;
     name: string;
     description: string;
@@ -21,5 +21,5 @@ export interface cards {
     cardGame: string;
     cardSet: string;
     abilities: string[];
-    faction: factions;
+    faction: Faction;
 }

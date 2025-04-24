@@ -1,5 +1,5 @@
 import { Card } from "./interfaces";
-import * as cardData from './cards.json';
+import cardData from './cards.json';
 import * as readline from 'readline-sync';
 import { parse } from "path";
 
@@ -25,8 +25,11 @@ function promtUser(): void {
         case "2":
             const choiceId = readline.question("\nPlease enter the id you want to filter by: ");
             const found: Card[] = cardData.filter(card => {
-                card.id === choiceId
+                return card.id === choiceId
             });
+            if (found.length === 0 ) {
+                console.log("No cards found with that ID")
+            }else {
             console.log(`\n- ${found[0].name} (${found[0].id})`);
             console.log(`- Description: ${found[0].description}`);
             console.log(`- powerLevel: ${found[0].powerLevel}`);
@@ -40,6 +43,7 @@ function promtUser(): void {
             console.log(`- alignment: ${found[0].faction.alignment}`);
             console.log(`- foundedYear: ${found[0].faction.foundedYear}`);
             console.log(`- isSecretSociety: ${found[0].faction.isSecretSociety}`);
+            }
             break;
 
         case "3":

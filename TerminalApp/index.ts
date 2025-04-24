@@ -69,6 +69,7 @@ function promtUser(): void {
                 pressSpace();
                 break;
             case "3":
+                console.log("\nGoodbye!");
                 keepGoing = false;
                 break;
             default:

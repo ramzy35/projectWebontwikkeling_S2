@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <h1>Kaarten en Facties</h1>
-  <table>
-    <tr>
-        <th>Name</th>
-        <th>cardType</th>
-        <th>abilities</th>
-        <th>powerLevel</th>
-        <th>rarity</th>
-        <th>manaCost</th>
-        <th>action</th>
-    </tr>
-    <% cards.forEach(card => { %>
-        <tr>
-            <td class="Name_Hero">
-                <h3 class="name"><%= card.name %></h3>
-                <p class="faction_name"><%= card.faction.name %></p>
-            </td>
-            <td><%= card.cardType %></td>
-            <td>
-                <ul><%= card.abilities %></ul>
-            </td>
-            <td><%= card.powerLevel %></td>
-            <td><%= card.rarity %></td>
-            <td><%= card.manaCost %></td>
-            <td><a href="#">view</a></td>
-        </tr>
-    <% }) %>
-  </table>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Cards</a></li>
+                <li><a href="">Guilds</a></li>
+                <li><a href="">Users</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>cardType</th>
+                <th>abilities</th>
+                <th>powerLevel</th>
+                <th>rarity</th>
+                <th>manaCost</th>
+                <th>action</th>
+            </tr>
+            <% cards.forEach(card => { %>
+                <tr>
+                    <td class="Name_Hero">
+                        <img src="<%= card.imageUrl %>" alt="" width="200px">
+                        <h3 class="name"><%= card.name %></h3>
+                        <p class="faction_name"><%= card.faction.name %></p>
+                    </td>
+                    <td><p><%= card.cardType %></p></td>
+                    <td id="abilities" class="Abilities"><p class="abilities"><%= card.abilities %></p></td>
+                    <td><p><%= card.powerLevel %></p></td>
+                    <td><p><%= card.rarity %></p></td>
+                    <td><p><%= card.manaCost %></p></td>
+                    <td><a href="#">view</a></td>
+                </tr>
+            <% }) %>
+        </table>
+    </main>
+  
 </body>
 </html>

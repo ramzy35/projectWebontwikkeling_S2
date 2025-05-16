@@ -1,21 +1,72 @@
-.table {
+body {
+    min-height: 100vh;
+
+
+}
+
+header {
+    background-color: rgb(225, 216, 214);
+}
+
+nav {
+    padding: 20px 10px 20px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+
+
+table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
 .td, th {
-    border: 1px solid black;
-    text-align: left;
     padding: 8px;
     width: 150px;
 }
 
 tr, td {
-    border: 1px solid black;
     height: 50px;
 }
 
+th {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(225, 241, 241);
+}
+
 td {
+    text-align: center;
+    border-bottom: solid 3px rgb(225, 241, 241);
+}
+
+tr td > p {
+    padding: 10px;
+}
+
+
+.Abilities {
+    content: "\a";
+    white-space: pre;
+}
+
+.abilities {
     text-align: center;
 }

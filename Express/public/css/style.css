@@ -42,7 +42,6 @@ table {
 }
 
 tr, td {
-    height: 50px;
 }
 
 th {
@@ -51,10 +50,17 @@ th {
     font-size: 1rem;
     background-color: rgb(225, 241, 241);
 }
+td img {
+    border-radius: 100px;
+    padding: 10px;
+}
+
 
 td {
     text-align: center;
     border-bottom: solid 3px rgb(225, 241, 241);
+    height: 170px;
+    max-height: 170px;
 }
 
 tr td > p {

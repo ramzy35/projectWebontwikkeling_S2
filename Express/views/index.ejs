@@ -30,11 +30,10 @@
                 <th>action</th>
             </tr>
             <% cards.forEach(card => { %>
-                <tr>
+                <tr class="Hero_container">
                     <td class="Name_Hero">
-                        <img src="<%= card.imageUrl %>" alt="" width="200px">
+                        <img src="<%= card.imageUrl %>" alt="" width="100px">
                         <h3 class="name"><%= card.name %></h3>
-                        <p class="faction_name"><%= card.faction.name %></p>
                     </td>
                     <td><p><%= card.cardType %></p></td>
                     <td id="abilities" class="Abilities"><p class="abilities"><%= card.abilities %></p></td>

@@ -28,7 +28,7 @@ const fetchJsonData = async (): Promise<Card[]> => {
     const factions: Faction[] = await responseFactions.json() as Faction[];
 
     const cardsWithFactions = cards.map((card: Card) => {
-      const faction = factions.find((factionElement: Faction) => factionElement.id === card.faction.id);
+      const faction = factions.find((factionElement: Faction) => factionElement.id === card.factionId);
 
       if (faction) {
         return {...card, faction}

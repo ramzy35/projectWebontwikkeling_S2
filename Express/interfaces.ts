@@ -21,5 +21,6 @@ export interface Card {
     cardGame: string;
     cardSet: string;
     abilities: string[];
-    faction: Faction;
+    factionId: string;
+    faction?: Faction;
 }

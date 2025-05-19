@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/person.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Hero's</a></li>
+                <li><a href="/factions">Factions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <div class="image_hero">
+                <img src="<%= faction.faction.symbolUrl %>" alt="" width="500px">
+            </div>
+            <div class="hero_info">
+                <h3><%= faction.faction.name %></h3>
+                <p>Alignment: <%= faction.faction.alignment %></p>
+                <br>
+                <p>SecretSociety: <%= faction.faction.isSecretSociety %></p>
+                <p>FoundYear: <%= faction.faction.foundedYear %></p>
+            </div>
+
+        </section>
+    </main>
+        
+</body>
+</html>

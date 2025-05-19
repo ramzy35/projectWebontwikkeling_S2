@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_faction.css">
     <link rel="stylesheet" href="/css/header.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -17,37 +18,34 @@
         </nav>
        
     </header>
+
     <main>
         <table>
             <tr>
                 <th>Name</th>
-                <th>cardType</th>
-                <th>abilities</th>
-                <th>powerLevel</th>
-                <th>rarity</th>
-                <th>manaCost</th>
-                <th>action</th>
+                <th>Alignment</th>
+                <th>foundedYear</th>
+                <th>SecretSociety</th>
+                <th>Action</th>
             </tr>
-            <% cards.forEach(card => { %>
+            <% factions.forEach(f => { %>
                 <tr class="Hero_container">
                     <td class="Name_Hero">
-                        <img src="<%= card.imageUrl %>" alt="" width="100px">
-                        <h3 class="name"><%= card.name %></h3>
+                        <img src="<%= f.symbolUrl %>" alt="" width="100px">
+                        <h3 class="name"><%= f.name %></h3>
                     </td>
-                    <td><p><%= card.cardType %></p></td>
-                    <td id="abilities" class="Abilities"><p class="abilities"><%= card.abilities %></p></td>
-                    <td><p><%= card.powerLevel %></p></td>
-                    <td><p><%= card.rarity %></p></td>
-                    <td><p><%= card.manaCost %></p></td>
+                    <td><p><%= f.alignment %></p></td>
+                    <td><p><%= f.foundedYear%></p></td>
+                    <td><p><%= f.isSecretSociety%></p></td>
                     <td>
                         <button>
-                            <a href="/hero?id=<%= card.id %>">View</a>
+                            <a href="/faction?id=<%= f.id %>">View</a>  
                         </button>
                     </td>
                 </tr>
             <% }) %>
         </table>
     </main>
-  
+
 </body>
 </html>

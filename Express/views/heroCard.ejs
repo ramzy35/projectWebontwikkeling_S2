@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/person.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Hero's</a></li>
+                <li><a href="/factions">Factions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <div class="image_hero">
+                <img src="<%= hero.imageUrl %>" alt="" width="500px">
+            </div>
+            <div class="hero_info">
+                <h3><%= hero.name %></h3>
+                <p class="description"><%= hero.description %></p>
+                <br>
+                <p>Cardtype: <%= hero.cardType %></p>
+                <p>PowerLevel: <%= hero.powerLevel %></p>
+                <p>Rarity: <%= hero.rarity %></p>
+                <p>Manacost: <%= hero.manaCost %></p>
+                <p>Cardset: <%= hero.cardSet %></p>
+                <p>Faction: <a href="/faction?id=<%= hero.factionId %>"><%= hero.faction.name %></a></p>
+                <p><%= hero.abilities %></p>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

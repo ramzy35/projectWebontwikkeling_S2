@@ -1,0 +1,44 @@
+.card {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgb(220, 220, 228);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero_info {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+.description {
+    font-size: 10px;
+    color: rgb(121, 118, 118);
+    padding: 10px;
+}
+
+.image_hero img {
+    border-radius: 5px;
+}
+
+.image_hero {
+    width: fit-content;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

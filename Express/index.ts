@@ -1,13 +1,19 @@
 import express from 'express';
+import dotenv from "dotenv";
+
 import path from 'path';
 import fetch from 'node-fetch';
-import { Card, Faction } from './interfaces';
+import { Card, Faction , User } from './interfaces';
+
 import personRoute from './routes/heroCard';
 import factionRoute from './routes/factionCard';
 import factionsRoute from './routes/factions';
+import session from "./session";
 
+
+dotenv.config();
 const app = express();
-// const port = 3000;
+
 
 app.set('view engine', 'ejs');
 app.set("port", 3000);

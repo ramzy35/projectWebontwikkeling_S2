@@ -1,3 +1,5 @@
+import { ObjectId } from "mongodb";
+
 export interface Faction {
     id: string;
     name: string;
@@ -23,4 +25,12 @@ export interface Card {
     abilities: string[];
     factionId: string;
     faction?: Faction;
+}
+
+export interface User {
+    _id?: ObjectId;
+    email: string;
+    username: string;
+    password?: string;
+    role: "ADMIN" | "USER";
 }

@@ -1,6 +1,4 @@
 import  express  from "express";
-
-import { Faction } from "../interfaces";
 import { getFactionList } from "../database";
 
 const factionsRoute = express.Router();

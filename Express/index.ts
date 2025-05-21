@@ -1,15 +1,15 @@
 import express from 'express';
 import dotenv from "dotenv";
-
 import path from 'path';
-import fetch from 'node-fetch';
-import { Card, Faction , User } from './interfaces';
 
 import { getAllCards } from './database';
 import personRoute from './routes/heroCard';
 import factionRoute from './routes/factionCard';
 import factionsRoute from './routes/factions';
-import session from "./session";
+import signInRoute from './routes/signIn';
+import signUpRoute from './routes/signUp';
+
+import session from './session';
 import { connect } from './database';
 
 
@@ -22,8 +22,11 @@ app.set("port", 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use("/hero", personRoute);
-app.use("/faction",factionRoute);
-app.use("/factions",factionsRoute )
+app.use("/faction", factionRoute);
+app.use("/factions", factionsRoute);
+app.use("/signin", signInRoute);
+app.use("/signup", signUpRoute);
+app.use(session);
 
 
 
@@ -44,11 +47,11 @@ app.get('/', async (req, res) => {
 app.listen(app.get("port"), async ()=> {
   try {
       await connect();
-      console.log( "[server] http://localhost:" + app.get("port"));
-  } catch (e) {
-    console.log(e);
-    process.exit();
-  }
+      console.log( "server started on http://localhost:" + app.get("port"));
+    } catch (e) {
+      console.log(e);
+      process.exit();
+    }
 });
 
 

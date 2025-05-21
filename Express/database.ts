@@ -29,18 +29,36 @@ export async function getAllUser():Promise<User[]> {
 }
 
 
+// Create new initial user with credentials from .env file
+async function createInitialUser() {
+    if (await userCollection.countDocuments() > 0) {
+        return;
+    }
+    let username : string | undefined = process.env.ADMIN_USERNAME;
+    let password : string | undefined = process.env.ADMIN_PASSWORD;
+    if (username === undefined || password === undefined) {
+        throw new Error("ADMIN_USERNAME and ADMIN_PASSWORD must be set in .env")
+    }
+    await userCollection.insertOne({
+        username: username,
+        password: await bcrypt.hash(password, saltRounds),
+        role: "ADMIN"
+    });
+    console.log("🌱👤 Created initial user");
+}
+
+
 //Create a new user with username, email, password
-export async function createUser(username:string, email:string, password:string) {
-    const existingUser = await userCollection.findOne({$or: [{username},{email}] });
+export async function createUser(username:string, password:string) {
+    const existingUser = await userCollection.findOne({$or: [{username}] });
     if (existingUser) {
-        throw new Error("Username or email already exist");
+        throw new Error("Username already exist");
         
     }
 
     const hashedPassword = await bcrypt.hash(password, saltRounds);
     await userCollection.insertOne({
         username,
-        email,
         password: hashedPassword,
         role: "USER"
     })
@@ -69,6 +87,9 @@ export async function login(username: string, password: string) {
 
 
 
+
+
+
 async function exit() {
     try {
         await client.close();
@@ -83,6 +104,7 @@ async function exit() {
 export async function connect() {
     try {
         await client.connect();
+        await seedCollections();
         console.log("Connected to database");
         process.on("SIGINT", exit);
     } catch (error) {
@@ -95,17 +117,24 @@ export async function connect() {
 export async function seedCollections() {
     const heroRes = await fetch("https://raw.githubusercontent.com/ramzy35/DataAp/main/cards.json");
     const heroData = await heroRes.json();
-    let cards: Card[] = heroData.cards;
+
+    let cards: Card[] = heroData;
 
     const factionRes = await fetch("https://raw.githubusercontent.com/ramzy35/DataAp/main/factions.json");
     const factionData = await factionRes.json();
-    const factions: Faction[] = factionData.factions;
+
+    const factions: Faction[] = factionData;
 
 
-    cards = cards.map(c => ({
-        ...c,
-        faction: factions.find((f: any) => f.id === c.factionId)
-    }));
+    if (Array.isArray(cards) && Array.isArray(factions)) {
+        cards = cards.map(c => ({
+            ...c,
+            faction: factions.find(f => f.id === c.factionId) || null
+        }));
+
+    } else {
+        console.error('cards or factions is not an array');
+    }
     if (await heroCollection.countDocuments() === 0) {
         await heroCollection.insertMany(cards);
         console.log("seeded hero data");
@@ -120,8 +149,15 @@ export async function seedCollections() {
     }
 }
 
-export async function getHeroList() {
-    return await heroCollection.find().toArray();
+
+export async function getAllCards(): Promise<Card[]> {
+    const cards = await heroCollection.find().toArray();
+    return cards;
+}
+
+export async function getHeroList(): Promise<Card[]> {
+    const cards = await heroCollection.find().toArray();
+    return cards;
 }
 
 export async function getFactionList() {
@@ -135,4 +171,12 @@ export async function getFactionList() {
     }
 
     return Array.from(factionMap.values());
+}
+
+export async function getFactionFiltered(id: string): Promise<Faction | null > {
+    const heroList: Card[] = await heroCollection.find().toArray();
+    
+    const faction = heroList.find(h => h.faction && h.faction.id === id)?.faction;
+    
+    return faction || null;
 }

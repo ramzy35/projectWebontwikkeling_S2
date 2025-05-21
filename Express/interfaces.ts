@@ -24,12 +24,11 @@ export interface Card {
     cardSet: string;
     abilities: string[];
     factionId: string;
-    faction?: Faction;
+    faction?: Faction | null;
 }
 
 export interface User {
     _id?: ObjectId;
-    email: string;
     username: string;
     password?: string;
     role: "ADMIN" | "USER";

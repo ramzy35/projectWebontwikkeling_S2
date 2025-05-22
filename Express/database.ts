@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import bcrypt from "bcrypt"
 
 dotenv.config();
+
 export const link = process.env.MONGO_URI || "";
 export const client = new MongoClient(link);
 
@@ -105,6 +106,7 @@ export async function connect() {
     try {
         await client.connect();
         await seedCollections();
+        await createInitialUser();
         console.log("Connected to database");
         process.on("SIGINT", exit);
     } catch (error) {

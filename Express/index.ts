@@ -50,7 +50,7 @@ app.listen(app.get("port"), async ()=> {
       console.log( "server started on http://localhost:" + app.get("port"));
     } catch (e) {
       console.log(e);
-      process.exit();
+      process.exit(1);
     }
 });
 
